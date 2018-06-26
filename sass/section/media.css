@@ -1,0 +1,198 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.content__career .career .career__img img {
+		width: 200px;
+	}
+	.content__portfolio .works .works__item {
+		margin-right: 10px;
+	}
+	.content__portfolio .works .works__item:nth-child(3n) {
+		margin-right: 10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.portfolio .works .works__item {
+		margin-bottom: 20px;
+	}
+	.portfolio .works .works__item:nth-child(5) {
+		margin-bottom: 0;
+	}
+	body .career .career__right .career-elems__item {
+		margin-top: 30px;
+		text-align: left;
+	}
+	section.about .about__right .about__inform {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	body .career .career__right  {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.footer {
+		margin-top: 20px;	
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.nav .nav__item {
+		border: none;
+		padding: 0;
+	}
+	.nav .nav__item.nav__item_active {
+		border-right: none;
+		padding: 0
+	}
+	body .career .career__right .career__elems {
+		text-align: center;
+	}
+	body .career .career__right .career__elems .career-elems__item {
+		display: inline-block;
+		margin-left: 0;
+	}
+	.nav .nav__item {
+		display: inline-block;
+		padding-bottom: 10px;
+	}
+	.about .nav .nav__item:first-child {
+		border-bottom: 5px solid #33c1e3;
+	}
+	body .content .title {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.about .about__right .about__inform p {
+		width: 	100%;
+	}
+	.about .about__right .about__inform {
+		height: auto;
+	}
+	.content .nav {
+		text-align: center;
+		margin-bottom: 	30px;
+	}
+	.nav .nav__item:nth-child(2) {
+		margin: 0px 50px
+	}
+	
+	.about .about__right .btn__wrap {
+		margin-top: 20px;
+	}
+
+	.career .nav .nav__item:nth-child(2) {
+		border-bottom: 5px solid #33c1e3;
+	}
+	.portfolio .nav .nav__item:last-child {
+		border-bottom: 5px solid #33c1e3;
+	}
+
+	body .career .career__right .title {
+		text-align: center;
+		margin-top: 30px;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		opacity: 1;
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+@media only screen and (max-width : 494px) {
+	.portfolio .works {
+		text-align: center;
+	}
+	.portfolio .works .works__item {
+		margin-right: 0;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	body .portfolio .works .works__item {
+		margin-left: 0px !important;
+		margin-bottom: 20px;
+	}
+	.career-elems__item {
+		margin-left: 0;
+	}
+	.card {
+		width: 250px;
+		margin: 81px auto 0;
+	}
+	.header .header__left .logo .logo__link .logo__img {
+		width: 44px;
+		margin-top: 8px;
+	}
+	.nav .nav__item {
+		font-size: 14px;
+	}
+	.nav .nav__item:nth-child(2) {
+		margin: 0px 21px
+	}	
+	.career .career__right .career-elems__list .career-elems__item .career-elems__card {
+		width: 300px;	
+	}
+}
+
+@media only screen and (max-width : 340px) {
+	.footer .social .social__item {
+		display: block;
+		width: 	32px;
+		margin-left: 80px;
+		margin-bottom: 	5px;	
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,87 @@
+.header {
+	padding: 9px 0;
+	background-color: #FFF;
+}
+
+.logo {
+	overflow: hidden;
+	height: 60px;
+	width: 50%;
+	float: left;
+}
+
+.logo__link {
+	color: #414141;
+	&:hover {
+		color: #32c3e5;
+		text-decoration: none;
+	}
+}
+
+.logo__img {
+	float: left;
+	width: 60px;
+
+	@include mobile {
+		width: 44px;
+		margin-top: 8px;
+	}
+}
+
+.logo__descr {
+	font-family: 'FiraSansRegular', sans-serif;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top: 18px;
+	display: inline-block;
+}
+
+.header__right {
+	float: right;
+}
+
+.contacts__title {
+	font-family: 'FiraSansBold', sans-serif;
+	font-size: 18px;
+	border-bottom: 1px dotted #32c3e5;
+	color: #32c3e5;
+	margin-top: 15px;
+}
+
+.contacts__popup {
+	z-index: 2;
+	border: 1px solid #dedede;
+	position: absolute;
+	top: 70px;
+	right: 15px;
+	background-color: #FFF;
+	border-radius: 8px;
+	padding: 16px 20px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.contacts__list {
+	margin-bottom: 8px;
+	font-size: 18px;
+	list-style: none;
+}
+
+.contacts__item {
+	margin-bottom: 28px;
+	margin-left: 5px;
+	font-family: 'FiraSansLight', sans-serif;
+	&:last-child {
+		margin-bottom: 0;	
+	}
+}
+
+.contacts__icon {
+	color: #32c3e5;
+}
+						
+.contacts__triangle {
+	position: absolute;
+	margin-top: -25px;
+	left: 180px;
+}

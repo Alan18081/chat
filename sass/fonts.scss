@@ -1,0 +1,6 @@
+@import "bourbon/bourbon";
+
+@include font-face("FiraSansRegular", "../fonts/FiraSansRegular/FiraSansRegular", $file-formats: eot woff ttf);
+@include font-face("FiraSansBold", "../fonts/FiraSansBold/FiraSansBold", $file-formats: eot woff ttf);
+@include font-face("FiraSansMedium", "../fonts/FiraSansMedium/FiraSansMedium", $file-formats: eot woff ttf);
+@include font-face("FiraSansLight", "../fonts/FiraSansLight/FiraSansLight", $file-formats: eot woff ttf);
